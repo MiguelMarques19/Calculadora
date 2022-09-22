@@ -4,6 +4,7 @@ var
    n1, n2, resposta: real
    conta, operacao: caracter
 inicio
+// Comentario GitHub
    Repita
       Escreval ("------------------------")
       Escreval ("|      CALCULADORA     |")
