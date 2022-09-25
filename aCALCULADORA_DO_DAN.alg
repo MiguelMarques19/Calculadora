@@ -20,6 +20,9 @@ inicio
       Escreval ("-----|-----------------|------------|-------------------")
       Escreval ("     |       0         |            | = (resposta) ")
       Escreval ("-----|-----------------|------------|-------------------")
+      Escreval ( )
+      Escreval (n1," ",operacao, n2, " = ", resposta)
+      Escreval ( )
       Escreval ("Informe um número: ")
       Leia (n1)
       Escreval ("Informe a operação: ")
@@ -50,7 +53,6 @@ inicio
       leia (final)
       Se (final = 2) entao
          Repita
-            n1 <- resposta + 0
             Escreval ("------------------------")
             Escreval ("|      CALCULADORA     |")
             Escreval ("------------------------")
@@ -66,6 +68,10 @@ inicio
             Escreval ("-----|-----------------|------------|-------------------")
             Escreval ("     |       0         |            | = (resposta) ")
             Escreval ("-----|-----------------|------------|-------------------")
+            Escreval ( )
+            Escreval (n1," ",operacao, n2, " = ", resposta)
+            n1 <- resposta + 0
+            Escreval ( )
             Escreval ("Informe a operação: ")
             Leia (operacao)
             Escreval("Informe o último número: ")
